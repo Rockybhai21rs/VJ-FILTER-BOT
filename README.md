@@ -2,7 +2,7 @@
   <img src=" https://vault.pictures/p/8e7e54e4b73c440b8ee94ff6903fd66a" alt="Real_Pirates Logo">
 </p>
 <h1 align="center">
-  VJ FILTER BOT
+  Real_Pirates
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Filter+Bot!)
