@@ -4,11 +4,12 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>𝚈𝚘 𝙷𝚘 ! 🏴‍☠ {},Myself <a href=https://t.me/{}>{}</a></blockquote>
+    START_TXT = """<b><blockquote>𝚈𝚘 𝙷𝚘 ! 🏴‍☠ {}, Myself <a href=https://t.me/{}>{}</a></blockquote>
     
-    
-Now You Don't Need to Go Anywhere ᢵYou Will Get Everything Hereᢴ 
+ Now You Don't Need to Go Anywhere
+ᢵYou Will Get Everything Hereᢴ 
 Just Type Your Movie-Series Name With Proper Spelling 
+
 ᢾᗯOᖇK ᒪIKᗴ ᗩ ᑕᗩᑭTᗩIᑎ ⎈ 
 ᑭᒪᗩY ᒪIKᗴ ᗩ ᑭIᖇᗩTᗴᢿ</b>"""
 
