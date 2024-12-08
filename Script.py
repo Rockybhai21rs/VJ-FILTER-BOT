@@ -4,10 +4,12 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>𝚈𝚘 𝙷𝚘 ! 🏴‍☠ {}, Just Type Your Movie-Series Name With Proper Spelling <a href=https://t.me/{}>{}</a></blockquote>
+    START_TXT = """<b><blockquote>𝚈𝚘 𝙷𝚘 ! 🏴‍☠ {},Myself <a href=https://t.me/{}>{}</a></blockquote>
     
-Now You Don't Need to Go Anywhere ᢵYou Will Get Everything Hereᢴ ᢾᗯOᖇK ᒪIKᗴ ᗩ ᑕᗩᑭTᗩIᑎ
-
+    
+Now You Don't Need to Go Anywhere ᢵYou Will Get Everything Hereᢴ 
+Just Type Your Movie-Series Name With Proper Spelling 
+ᢾᗯOᖇK ᒪIKᗴ ᗩ ᑕᗩᑭTᗩIᑎ ⎈ 
 ᑭᒪᗩY ᒪIKᗴ ᗩ ᑭIᖇᗩTᗴᢿ</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
@@ -327,7 +329,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  </b>""" 
 
     PROGRESS_BAR = """\n
-╭━━━━❰ Tech VJ Renaming... ❱━➣
+╭━━━━❰ Movie Pirates Renaming... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
