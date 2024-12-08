@@ -234,7 +234,8 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """ Tɪᴛʟᴇ : <blockquote><b>{file_name}<b><blockquote> <a href="https://t.me/Real_Pirates">⎈</a><blockquote>
+    CAPTION = """ Tɪᴛʟᴇ : 
+    <b><blockquote>{file_name}<blockquote> <a href="https://t.me/Real_Pirates">⎈</a><blockquote>
 <b>Size 🗃️: {file_size}</b>
 
 𝗝𝗼𝗶𝗻 ⭛
