@@ -4,7 +4,8 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>⚓︎ 𝚈𝚘 𝙷𝚘 ! {}, Myself <a href=https://t.me/{}>{}</a></blockquote>
+    START_TXT = """<b><blockquote>⚓︎ 𝚈𝚘 𝙷𝚘 ! {}, 
+    Myself <a href=https://t.me/{}>{}</a></blockquote>
     
  Now You Don't Need to Go Anywhere
 ᢵYou Will Get Everything Hereᢴ 
@@ -233,7 +234,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : ⎈  {file_name}
+    CAPTION = """<b>Tɪᴛʟᴇ : {file_name}  ⎈ <b>
 <b> Size 🗃️: {file_size}</b>
 
 𝗝𝗼𝗶𝗻 ⭛
