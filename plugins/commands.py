@@ -324,13 +324,13 @@ async def start(client, message):
                 file_type = msg.media
                 file = getattr(msg, file_type.value)
                 size = get_size(int(file.file_size))
-                file_name = getattr(media, 'file_name', '')
+                file_name = getattr(media, 'file_name', 'Real Pirates')
                 f_caption = getattr(msg, 'caption', file_name)
                 if BATCH_FILE_CAPTION:
                     try:
                         f_caption=BATCH_FILE_CAPTION.format(file_name=file_name, file_size='' if size is None else size, file_caption=f_caption)
                     except:
-                        f_caption = getattr(msg, 'caption', '')
+                        f_caption = getattr(msg, 'caption', 'Pirates')
                 file_id = file.file_id
                 if STREAM_MODE == True:
                     log_msg = await client.send_cached_media(chat_id=LOG_CHANNEL, file_id=file_id)
