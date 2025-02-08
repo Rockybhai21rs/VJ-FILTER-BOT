@@ -252,7 +252,7 @@ async def start(client, message):
         for msg in msgs:
             title = msg.get("title")
             size=get_size(int(msg.get("size", 0)))
-            f_caption=msg.get("caption", "")
+            f_caption=msg.get("caption", "@Real_Pirates")
             if BATCH_FILE_CAPTION:
                 try:
                     f_caption=BATCH_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
@@ -438,7 +438,7 @@ async def start(client, message):
         for file in files:
             file_id = file["file_id"]
             files1 = await get_file_details(file_id)
-            title = files1["file_name"]
+            title = "@Real_Pirates " + files["file_name"]
             size=get_size(files1["file_size"])
             f_caption=files1["caption"]
             if CUSTOM_FILE_CAPTION:
@@ -540,7 +540,7 @@ async def start(client, message):
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = file.file_name
+            title = "@Real_Pirates " + files["file_name"]
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
