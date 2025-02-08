@@ -77,8 +77,8 @@ async def start(client, message):
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAJFnmemUn5BHS_LJK9VrjyAc2fdknxhAAL6DQACpZHoV9slATk72cRqHgQ") 
-        await asyncio.sleep(10)
-        await m.delete(5)
+        await asyncio.sleep(3)
+        await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
